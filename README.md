@@ -19,7 +19,7 @@ offsets, so this library **infers the offset per run** instead of hardcoding it.
 ## 60-second quickstart
 
 ```bash
-pip install pdf-encoding-repair        # or: uv add pdf-encoding-repair
+pip install git+https://github.com/sadishihab/pdf-encoding-repair.git
 ```
 
 ```python
@@ -32,9 +32,9 @@ result.confidence  # 0.0-1.0; only meaningful when result.was_repaired
 
 # A whole document: a list of lines from any extractor.
 lines, report = repair_document(extracted_lines)
-report.offsets  # {29: 412}   offsets found -> lines that used them
+report.offsets  # for example {29: 412}: offsets found -> lines that used them
 report.dominant  # DominantOffset(offset=29, ...) or None
-report.lines_repaired  # 415
+report.lines_repaired  # for example 415
 report.low_confidence  # repairs worth a human look
 
 # Or just a string:
