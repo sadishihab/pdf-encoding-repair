@@ -1,6 +1,6 @@
 [project]
 name = "pdf-encoding-repair"
-version = "0.1.0"
+version = "0.1.1"
 description = "Detect and repair PDF-extracted text corrupted by a constant character-code offset."
 readme = "README.md"
 license = "MIT"

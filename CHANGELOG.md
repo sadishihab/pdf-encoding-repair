@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-10-03
+
+### Changed
+
+- The README now leads with `pip install pdf-encoding-repair` and keeps the install-from-GitHub command as an
+  optional second step. No code changes.
+
 ## [0.1.0] - 2026-10-01
 
 ### Added
@@ -42,5 +49,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Heuristic: the weak-signal token path can turn real short numbers into letters; parentheses are not treated
   as a corruption signal. Precision is favoured over recall.
 
-[Unreleased]: https://github.com/sadishihab/pdf-encoding-repair/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/sadishihab/pdf-encoding-repair/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/sadishihab/pdf-encoding-repair/releases/tag/v0.1.1
 [0.1.0]: https://github.com/sadishihab/pdf-encoding-repair/releases/tag/v0.1.0
