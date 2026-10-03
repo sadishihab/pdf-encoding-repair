@@ -19,6 +19,12 @@ offsets, so this library **infers the offset per run** instead of hardcoding it.
 ## 60-second quickstart
 
 ```bash
+pip install pdf-encoding-repair
+```
+
+Optional: to install the development version straight from GitHub instead:
+
+```bash
 pip install git+https://github.com/sadishihab/pdf-encoding-repair.git
 ```
 
